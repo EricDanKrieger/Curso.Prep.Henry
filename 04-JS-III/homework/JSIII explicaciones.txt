@@ -1,0 +1,13 @@
+Los Arrays son una forma de almacenar listas de elementos en el lenguaje de programación llamado Javascript.
+Para crarlos debemos usar la consola, que es el lugar donde nos comunicamos con Javascript.
+En la consola escribiremos así: var + el nombre de la lista + = y luego entre corchetes escribiremos los nombres de todos los elementos, separados por comas.
+Ej: var NombresyNumeros = ['Federico', 'Antonio', 'Juan', 83, 17, 32]
+Entonces Javascript le va a asignar un número a cada elemento comenzando desde 0.
+Si luego yo quiero ver que elementos hay en la lista, escribiré en la consola el nombre de la lista y Javascript me devolverá el listado.
+Ej: 
+> NombresyNumeros
+< ['Federico', 'Antonio', 'Juan', 83, 17, 32]
+En cambio si quiero que me JavaScript me diga cual es uno de los elementos en particular, deberé escribir el nombre de la lista junto a la ubicación del elemento entre corchetes.
+Ej:
+> NombresyNumeros[2]
+< 'Juan'
