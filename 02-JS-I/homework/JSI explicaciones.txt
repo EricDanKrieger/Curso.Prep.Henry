@@ -1,0 +1,41 @@
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente 
+cualquier agujero en tu comprensión.
+
+Variables: Las variables son una forma de almacenar un elemento en Javascript,
+la forma de crearlas es escribir en la consola var + espacio + 'su nombre' y 
+luego escribimos un signo igual y lo que sigue del igual quedará guardado
+dentro de la variable. Así de fácil!
+Y una vez que hayamos creado la variable podremos utilizarla más adelante,
+escribiendo el nombre de la misma, y para Javascript será lo mismo que si
+ahí estuviera el elemento que guardamos dentro.
+ 
+Strings: Las strings en Javascript son un tipo de dato parecido a lo que
+en nuestro lenguaje son las palabras, ya que no se les puede realizar
+operaciones matemáticas, como si fueran números; y para crearlas debemos
+escribirlas entre comillas simples o dobles.
+
+Funciones (argumentos, return): Las funciones son un tipo de objeto 
+muy importante en Javascript, ya que nos permite trabajar con las variables,
+modificarlas, cambiarlas, hacer algo con ellas.
+
+Para crarlas escribiremos function + 'el nombre que le daremos' + () + {};
+Nos gusta llamarlas con una frase que describa lo que hacen.
+Entre los paréntesis van los argumentos, que son las variables
+que la función va a operar, y si ponemos más de uno los separaremos por comas.
+Luego entre los llaves escribiremos el código; o sea las instrucciones 
+que la función va a ejecutar; y dentro de éstas instrucciones podemos
+finalizar con la declaración de return; lo que escribamos después de el return
+y antes del punto y coma o de la llave de cierre final será lo que queremos
+que la función nos devuelva luego de procesar las variables.
+
+Declaraciones if: Cuando programamos si usamos la frase 'if' le estaremos
+pidiendo a Javascript que analice si es cierto lo que hay a continuación, 
+entonces si es cierto ejecutará el código siguiente y sino lo salteará.
+
+Valores booleanos (true, false): Los valores booleanos pueden ser true (verdadero)
+o false (falso), los podemos usar para indicarle a Javascript que algo es
+verdaero o falso y también los puede usar Javascript para decirnos a nosotros
+si algo es verdadero o falso, por ejemplo al usar comparaciones. 3 = 2 'falso'.
